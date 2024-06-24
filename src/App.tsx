@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
 import Header from './components/Header';
 import axios from 'axios'
@@ -32,6 +32,7 @@ const App = () => {
 
   return (
     <>
+      {error && <p className='text-danger'>{error}</p>}
       <div className='mb-3'>
         <Header />
       </div>
