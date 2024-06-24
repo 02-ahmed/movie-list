@@ -3,7 +3,7 @@
 A site that shows you the top 100 movies ever
 
 
-- [Top 100 movies](hhttps://02mdb.netlify.app/) This is a live link to the site
+- [Top 100 movies](https://02mdb.netlify.app/) This is a live link to the site
 
 # Overview
 - The site contains the first 100 ranked movies in order from 1 to 100
