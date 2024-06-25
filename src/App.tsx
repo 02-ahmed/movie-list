@@ -22,7 +22,7 @@ const App = () => {
   useEffect(() => {
     axios.get<Movie[]>("https://imdb-top-100-movies.p.rapidapi.com/", {
       headers: {
-        'x-rapidapi-key':'***REMOVED***',
+        'x-rapidapi-key':'',
         'x-rapidapi-host':'imdb-top-100-movies.p.rapidapi.com'
       }
     })
